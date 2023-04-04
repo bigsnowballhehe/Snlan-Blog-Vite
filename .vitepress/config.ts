@@ -22,6 +22,14 @@ export default defineConfig({
           {text:"CompileBase",link:"/Compile/CompileBase.md"},
           {text:"LargeData",link:"/Compile/LargeData.md"}
         ]
+      },
+      {
+        text:"Typescript",
+        items:[
+          {
+            text:"Type-Challenges",link:"/TypescriptAbout/TypeChallenges.md"
+          }
+        ]
       }
     ],
 
