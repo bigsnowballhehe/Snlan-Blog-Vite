@@ -78,3 +78,24 @@ type Push<T extends any[], P> = [...T, P]
 ```ts
 type Unshift<T extends any[], P> = [P, ...T]
 ```
+
+## Medium
+1. MyReturnType
+
+```ts
+type MyReturnType<T> = T extends (...args:any[])=>infer R?R:never
+```
+2. My Omit
+```ts
+type MyExclude<T,K> =  T extends K?never:T
+type MyOmit<T,P extends keyof T> = {
+    [K in MyExclude<keyof T,P>]:T[K]
+  } 
+```
+3. MyReadonly2
+```ts
+type MyReadonly2<T,K extends keyof T = keyof T> = {
+ readonly [P in  K]:T[P]
+}&{ [S in MyExclude<keyof T,K>] :T[S]   }
+
+```
