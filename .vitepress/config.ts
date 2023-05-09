@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'https://bigsnowballhehe.github.io/',
+  base:'/',
   title: "SnLan's blog",
   description: "A VitePress Site",
   head:[
