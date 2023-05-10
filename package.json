@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Blog for learning note",
   "main": "index.js",
+  "packageManager": "pnpm@8.4.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev",
