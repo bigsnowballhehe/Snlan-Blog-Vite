@@ -29,6 +29,8 @@ export default defineConfig({
         items:[
           {
             text:"Type-Challenges",link:"/TypescriptAbout/TypeChallenges.md"
+          },{
+            text:"Object-Maaping",link:"/TypescriptAbout/TransformMapping.md"
           }
         ]
       }
